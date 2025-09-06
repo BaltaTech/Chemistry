@@ -1,0 +1,8 @@
+C:\Users\chris\source\repos\AnalisisGranulometrico\AnalisisGranulometrico\bin\Debug\AnalisisGranulometrico.exe.config
+C:\Users\chris\source\repos\AnalisisGranulometrico\AnalisisGranulometrico\bin\Debug\AnalisisGranulometrico.exe
+C:\Users\chris\source\repos\AnalisisGranulometrico\AnalisisGranulometrico\bin\Debug\AnalisisGranulometrico.pdb
+C:\Users\chris\source\repos\AnalisisGranulometrico\AnalisisGranulometrico\obj\Debug\AnalisisGranulometrico.csproj.AssemblyReference.cache
+C:\Users\chris\source\repos\AnalisisGranulometrico\AnalisisGranulometrico\obj\Debug\AnalisisGranulometrico.csproj.CoreCompileInputs.cache
+C:\Users\chris\source\repos\AnalisisGranulometrico\AnalisisGranulometrico\obj\Debug\AnalisisGranulometrico.exe
+C:\Users\chris\source\repos\AnalisisGranulometrico\AnalisisGranulometrico\obj\Debug\AnalisisGranulometrico.pdb
+C:\Users\chris\source\repos\AnalisisGranulometrico\AnalisisGranulometrico\obj\Debug\AnalisisGranulometrico.exe.config
