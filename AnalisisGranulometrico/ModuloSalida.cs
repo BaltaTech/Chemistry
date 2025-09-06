@@ -1,7 +1,8 @@
 using System;
 using System.Linq;
+using AnalisisGranulometrico;
 
-namespace AnalisisGranulometrico
+namespace ModuloSalida
 {
     public class ModuloSalida : IModuloSalida
     {

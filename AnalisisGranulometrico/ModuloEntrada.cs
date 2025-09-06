@@ -2,8 +2,9 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using AnalisisGranulometrico;
 
-namespace AnalisisGranulometrico
+namespace ModuloCalculo
 {
     public class ModuloEntrada : IModuloEntrada
     {

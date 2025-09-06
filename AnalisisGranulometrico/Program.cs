@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ModuloCalculo;
+using System;
 using System.Collections.Generic;
 
 namespace AnalisisGranulometrico
@@ -9,19 +10,18 @@ namespace AnalisisGranulometrico
         {
             Console.WriteLine("=== ANÁLISIS GRANULOMÉTRICO PARA BENEFICIO DE MINERALES ===");
 
+            // 1. Entrada del prgrama 
             IModuloEntrada moduloEntrada = new ModuloEntrada();
             var datos = moduloEntrada.ObtenerDatos();
-            
-            //2. Instancia Análisis Granulométrico
 
+            //2. Instancia Análisis Granulométrico
             var analisisGranulometricos = new AnalisisGranulometricos();
             var resultados = analisisGranulometricos.RealizarCalculos(datos);
 
-            
             //3. Modúlo Salida
-            
-            IModuloSalida moduloSalida = new ModuloSalida();
+            IModuloSalida moduloSalida = new ModuloSalida.ModuloSalida();
             moduloSalida.MostrarResultados(resultados);
+
             Console.WriteLine("Presione cualquier tecla para salir");
             Console.ReadKey();
         }
@@ -31,13 +31,13 @@ namespace AnalisisGranulometrico
         public double TamañoMalla { get; set; }
         public double MasaRetenida { get; set; }
     }
-    
+
     public interface IModuloEntrada
     {
         List<DatosTamiz> ObtenerDatos();
     }
 
-    public  class ModuloCalculo
+    public class ModuloCalculo
     {
     }
 
