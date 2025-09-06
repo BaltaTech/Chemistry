@@ -43,8 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AnalisisGranulometricos.cs" />
+    <Compile Include="ModuloEntrada.cs" />
+    <Compile Include="ModuloSalida.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ResultadosAnalisis.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
